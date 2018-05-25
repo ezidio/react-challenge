@@ -4,7 +4,7 @@ Este é um desafio para testar seus conhecimentos em JavaScript, React e Redux;
 
 Neste teste existem várias respostas corretas, pois o objetivo é avaliar a sua forma de codificação, e suas habilidades usando a tecnologia proposta.
 
-# Obrigatoriedades
+## Obrigatoriedades
 
 O projeto deve utilizar webpack, e deve ser desenvolvido em React, e utilizar Redux para o carrinho de compras.
 
@@ -12,7 +12,7 @@ O Front-End deve utilizar Material UI: https://material-ui-next.com/
 
 Os produtos disponíveis devem ser recuperados através de uma API Rest, disponibilizada neste mesmo projeto.
 
-# Carrinho de Compras
+## Carrinho de Compras
 
 Seu objetivo é montar um carrinho de compras simples, conforme o prototipo a seguir:
 
@@ -28,17 +28,14 @@ A tela de listagem de produtos deve:
 - Permitir comprar 
   - Ao clicar em comprar, e o produto não estiver no carrinho, deve ser adicionado;
   - Ao clicar em comprar, e o produto ja existir no carrinho, deve ser incrementado em 1;
-  - Ao clicar em comprar, e a quantidade em estoque já estiver esgotada, deve exibir uma mensagem ao usuário;
 - Exibir resumo do carrinho
   - Exibir no icone do carrinho uma badge com quantidade de itens;
   - Exibir ao lado do icone, o valor total da compra;
-  - Ao clicar no icone, exibir uma lista com os produtos e quantidades já adquiridas;
 
 O carrinho deve:
 
 - Permitir remover itens;
   - Ao remover, liberar o estoque do produto;
-  - Ao remover, pedir confirmação;
 - Permitir alterar a quantidade de um item;
   - Ao clicar em aumentar, deve incrementar em 1;
   - Ao clicar em diminuir, deve decrementar em 1;
@@ -47,7 +44,7 @@ O carrinho deve:
   - Não deve permitir o usuário informar quantidade zero;
 - Exibir o somatório total dos itens incluidos;
 
-# Serviço Rest
+## Serviço Rest
 
 Criar o backend não é o foco deste teste, portanto está sendo disponibilizado um serviço Rest que deve ser utilizado para recuperar a lista de produtos do projeto.
 
