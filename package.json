@@ -1,0 +1,19 @@
+{
+  "name": "react-challenge",
+  "version": "1.0.0",
+  "description": "Teste de conhecimento em react para Rivendel Tecnologia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezidio/react-challenge.git"
+  },
+  "author": "Everton Tavares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ezidio/react-challenge/issues"
+  },
+  "homepage": "https://github.com/ezidio/react-challenge#readme"
+}
